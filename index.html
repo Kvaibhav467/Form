@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body style="background-color: antiquewhite">
+
+    <header>
+        <h1>Fill the form</h1>
+        <hr>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="https://www.google.com/" target="_blank">Google</a></li>
+                <li><a href="https://telegram.org/" target="_blank">Telegram</a></li>
+                <li><a href="https://www.whatsapp.com/" target="_blank">Whatsapp</a></li>
+            </ul>
+        </nav>
+        <br>
+        <form action="">
+            <section>
+                <article>
+                    <label for="name">Name : </label>
+                    <input id="name" type="text" name="Name">
+                    <br><br>
+                </article>
+                <article>
+                    <label for="age">Age : </label>
+                    <input id="number" type="number" name="Age">
+                    <br><br>
+                </article>
+                <article>
+                    <label for="dob">D.O.B : </label>
+                    <input type="date" name="Date">
+                    <br><br>
+                </article>
+                <article>
+                    <label for="gender">Gender : </label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                    <br><br>
+                </article>
+                <article>
+                    <label for="email">Email : </label>
+                    <input id="email" type="email">
+                    <br><br>
+                </article>
+                <article>
+                    <label for="pswd">Password : </label>
+                    <input id="password" type="password">
+                    <br><br>
+                </article>
+            </section>
+            <section>
+                <label for="lang">Language : </label>
+                <select name="language" id="lang">
+                    <option value="hin">Hindi</option>
+                    <option value="eng">English</option>
+                    <option value="urdu">Urdu</option>
+                    <option value="turk">Turkish</option>
+                    <option value="arabic">Arabic</option>
+                </select>
+
+                <br><br>
+            </section>
+            <section>
+                <input type="reset">
+                <input type="submit">
+                <br><br>
+            </section>
+        </form>
+    </main>
+    <aside></aside>
+    <footer>
+        <h2>Submit form before deadline</h2>
+    </footer>
+</body>
+
+</html>
